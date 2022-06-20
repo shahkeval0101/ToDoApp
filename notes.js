@@ -22,10 +22,12 @@ const addNote = (title, body)=>{
     
 }
 const saveNote = (notes)=>{
+    //storing in json
     fs.writeFileSync("notes.json",JSON.stringify(notes))
 }
 const loadNotes = ()=>{
     try{
+
         const dataBuffer = fs.readFileSync('notes.json')
         const dataJSON = dataBuffer.toString()//read file needs tostring conversion to display ---refer playground
         return JSON.parse(dataJSON)
