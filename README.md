@@ -5,13 +5,15 @@ The Application using File System to store new ToDo to the database. <br>
 Setup: <br>
 npm install <br>
 1)To Add a new ToDo
-<img src="./screenshots/add.png" alt="Add Image" />
+![](./screenshots/add.png)
 <br><br>
 2)To Remove the Note from the App
-<img src="./screenshots/remove.png" alt="Remove Image" />
+![](./screenshots/remove.png)
 <br><br>
 3)To View the list of the note
-<img src="./screenshots/list.png" alt="List Image" />
+![](./screenshots/list.png)
 <br><br>
 4)To Read the specific note 
 <img src="./screenshots/read.png" alt="Read Image" />
+![](./screenshots/read.png)
+
